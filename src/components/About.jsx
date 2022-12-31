@@ -1,5 +1,5 @@
 import React from "react";
-import pjain from "../assets/img/about.jpg";
+import pjain from "../assets/img/pjain.jpg";
 
 export const About = () => {
   return (

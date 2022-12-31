@@ -1,17 +1,4 @@
 import React from "react";
-import s1 from "../assets/images/1.jpg";
-import s35 from "../assets/images/35.jpg";
-import s3 from "../assets/images/3.jpg";
-import s4 from "../assets/images/4.jpg";
-import s33 from "../assets/images/33.jpg";
-import s6 from "../assets/images/6.jpg";
-import s30 from "../assets/images/30.jpg";
-import s8 from "../assets/images/8.jpg";
-import s9 from "../assets/images/9.jpg";
-import s10 from "../assets/images/10.jpg";
-import s11 from "../assets/images/11.jpg";
-import s20 from "../assets/images/20.jpg";
-import rep from "../assets/img/rep.jpg";
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
@@ -21,18 +8,15 @@ import { Autoplay, Scrollbar } from "swiper";
 
 export const Projects = () => {
   const data = [
-    { src: s1, desc: "House at Bhilai", class: "" },
-    { src: s3, desc: "House at Raipur", class: "" },
-    { src: s4, desc: "Office at Durg", class: "" },
-    { src: s6, desc: "House at Bhilai", class: "" },
-    { src: s8, desc: "House at Bhilai", class: "" },
-    { src: s9, desc: "House at Bhilai", class: "" },
-    { src: s11, desc: "House at Bhilai", class: "" },
-    { src: s20, desc: "House at Bhilai", class: "" },
-    { src: s10, desc: "House at Bhilai", class: "big" },
-    { src: s30, desc: "House at Bhilai", class: "" },
-    { src: s33, desc: "House at Bhilai", class: "" },
-    { src: s35, desc: "House at Bhilai", class: "" },
+    { src: "https://res.cloudinary.com/dcxwex73e/image/upload/v1672461317/media/nalini-associates/46_wskrom.jpg", desc: "House at Bhilai", class: "" },
+    { src:"https://res.cloudinary.com/dcxwex73e/image/upload/v1672461313/media/nalini-associates/42_ngx5y5.jpg" , desc: "House at Raipur", class: "" },
+    { src: 'https://res.cloudinary.com/dcxwex73e/image/upload/v1672461312/media/nalini-associates/45_nez5mo.jpg', desc: "Office at Durg", class: "" },
+    { src: 'https://res.cloudinary.com/dcxwex73e/image/upload/v1672461309/media/nalini-associates/35_qmgcwl.jpg', desc: "House at Bhilai", class: "" },
+    { src: "https://res.cloudinary.com/dcxwex73e/image/upload/v1672461308/media/nalini-associates/30_t57jks.jpg", desc: "House at Bhilai", class: "" },
+    { src: "https://res.cloudinary.com/dcxwex73e/image/upload/v1672461305/media/nalini-associates/33_uhihmr.jpg ", desc: "House at Bhilai", class: "" },
+    { src: "https://res.cloudinary.com/dcxwex73e/image/upload/v1672461296/media/nalini-associates/10_sutlzk.jpg", desc: "House at Bhilai", class: "" },
+    { src: "https://res.cloudinary.com/dcxwex73e/image/upload/v1672461294/media/nalini-associates/3_nzveua.jpg", desc: "House at Bhilai", class: "" },
+    { src: "https://res.cloudinary.com/dcxwex73e/image/upload/v1672461297/media/nalini-associates/15_nvblzf.jpg", desc: "House at Bhilai", class: "" },
   ];
 
   return (

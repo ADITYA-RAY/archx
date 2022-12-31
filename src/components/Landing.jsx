@@ -1,8 +1,4 @@
 import React from "react";
-import img0 from "../assets/img/build0.jpg";
-import img1 from "../assets/img/build1.jpg";
-import img2 from "../assets/img/build2.jpg";
-import img3 from "../assets/img/build3.jpg";
 
 import { useState, useEffect, useRef } from "react";
 export const Landing = () => {
@@ -14,7 +10,6 @@ export const Landing = () => {
   useEffect(() => {
     let counter = 0;
     let counts = [count0, count1, count2, count3];
-    let images = [img0, img1, img2, img3];
     for (var i = 0; i < 4; i++) {
       counts[i].current.style.opacity = 0;
       counts[0].current.style.opacity = 0.6;
@@ -44,10 +39,10 @@ export const Landing = () => {
   return (
     <div className="hero_cont">
       <div className="img_cont">
-        <img src={img3} alt="" className="hero" ref={count3} />
-        <img src={img2} alt="" className="hero" ref={count2} />
-        <img src={img1} alt="" className="hero" ref={count1} />
-        <img src={img0} alt="" className="hero" ref={count0} />
+        <img src={"https://res.cloudinary.com/dcxwex73e/image/upload/v1672461305/media/nalini-associates/33_uhihmr.jpg"} alt="" className="hero" ref={count3} />
+        <img src={"https://res.cloudinary.com/dcxwex73e/image/upload/v1672461301/media/nalini-associates/19_nzigtx.jpg"} alt="" className="hero" ref={count2} />
+        <img src={"https://res.cloudinary.com/dcxwex73e/image/upload/v1672461300/media/nalini-associates/18_ctyrzy.jpg"} alt="" className="hero" ref={count1} />
+        <img src={"https://res.cloudinary.com/dcxwex73e/image/upload/v1672461294/media/nalini-associates/4_xkhioy.jpg"} alt="" className="hero" ref={count0} />
       </div>
       <div className="hero_txt_cont">
         <div className="hero_txt">Constructing Happiness.</div>
